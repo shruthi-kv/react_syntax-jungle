@@ -7,7 +7,8 @@ import Parent from './RefComponents/FR_parent'
 // import withLoader from './HOC/withLoader'; 
 // import Place from './HOC/place'
 // import ComponentA from './propdrilling/ComponentA.jsx';
-import ParentComp from './Callback/ParentComp'
+// import ParentComp from './Callback/ParentComp'
+import Memo from './Memo/Memo'
 
 function App() {
 
@@ -21,8 +22,9 @@ function App() {
     // <Parent/>
     //  <UserWithLoader/>
     // <PLaceWithLoader/>
-    // <ComponentA/>
-    <ParentComp/>
+    // // <ComponentA/>
+    // <ParentComp/>
+    <Memo/>
   
   )
 }
