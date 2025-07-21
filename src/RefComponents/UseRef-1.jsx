@@ -1,9 +1,10 @@
 
 import {useState, useRef} from 'react';
+import ChildComponent from './ChildComponent'
 
 const UseRefExample = () => {
 
-    const [name, setName] = useState('');
+   
     const inputRef = useRef();
 
     const onSubmit = () =>{
@@ -11,10 +12,9 @@ const UseRefExample = () => {
 
     }
 
-
     return (
         <>
-        <input  ref = {inputRef} value={name} onChange = {e=> setName(e.target.value)} />
+        <ChildComponent ref={inputRef}/>
         <button onClick ={onSubmit}>Focus</button>
         </>
     )
