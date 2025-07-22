@@ -1,14 +1,15 @@
 
 import './App.css';
 // import ParentComponent from './RefComponents/ParentComponent'
-import UseRefExample from './RefComponents/UseRef-1'
-import Parent from './RefComponents/FR_parent'
+// import UseRefExample from './RefComponents/UseRef-1'
+// import Parent from './RefComponents/FR_parent'
 // import User from './HOC/user';
 // import withLoader from './HOC/withLoader'; 
 // import Place from './HOC/place'
 // import ComponentA from './propdrilling/ComponentA.jsx';
 // import ParentComp from './Callback/ParentComp'
-import Memo from './Memo/Memo'
+// import Memo from './Memo/Memo'
+import Container from './LazyLoad/Container'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
     // <PLaceWithLoader/>
     // // <ComponentA/>
     // <ParentComp/>
-    <Memo/>
+    // <Memo/>
+    <Container/>
   
   )
 }
