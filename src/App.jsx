@@ -10,6 +10,7 @@ import './App.css';
 // import ParentComp from './Callback/ParentComp'
 // import Memo from './Memo/Memo'
 import Container from './LazyLoad/Container'
+import Screen from './Portal/Screen';
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
     // // <ComponentA/>
     // <ParentComp/>
     // <Memo/>
-    <Container/>
+    // <Container/>
+    <Screen/>
   
   )
 }
