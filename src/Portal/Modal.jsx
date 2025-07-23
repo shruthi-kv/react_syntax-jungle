@@ -3,13 +3,18 @@ import ReactDom from 'react-dom';
 
 
 const Modal = ({ children }) => {
-    return ReactDom.createPortal(
-        <div>
-            {children}
-        </div>
-        , document.getElementById('root')
-    )
-
+  return ReactDom.createPortal(
+    <div>
+      {children}
+    </div>
+    , document.getElementById('root')
+  )
 }
 
+
 export default Modal;
+
+
+
+
+

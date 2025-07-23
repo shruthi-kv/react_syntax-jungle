@@ -12,7 +12,7 @@ const Screen = () => {
     }
 
     return (
-        <>
+        <div id="screen">
         <button onClick={handleModal}>Open Modal</button>
         {showModal && 
         <Modal>
@@ -20,7 +20,7 @@ const Screen = () => {
             <button onClick={closeModal}>Close Modal</button>
         </Modal>
         }
-        </>
+        </div>
     )
 }
 
