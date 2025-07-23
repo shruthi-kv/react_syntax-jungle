@@ -9,8 +9,9 @@ import './App.css';
 // import ComponentA from './propdrilling/ComponentA.jsx';
 // import ParentComp from './Callback/ParentComp'
 // import Memo from './Memo/Memo'
-import Container from './LazyLoad/Container'
-import Screen from './Portal/Screen';
+// import Container from './LazyLoad/Container'
+// import Screen from './Portal/Screen';
+import Modal1 from './Portal/Example1';
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
     // <ParentComp/>
     // <Memo/>
     // <Container/>
-    <Screen/>
+    // <Screen/>
+    <Modal1/>
   
   )
 }
