@@ -11,7 +11,9 @@ import './App.css';
 // import Memo from './Memo/Memo'
 // import Container from './LazyLoad/Container'
 // import Screen from './Portal/Screen';
-import Modal1 from './Portal/Example1';
+// import Modal1 from './Portal/Example1';
+// import EventBubbling from './EventBubble/EventBubbling'
+import EventCapturing from './EventCapturing/EventCapturing';
 
 function App() {
 
@@ -30,8 +32,9 @@ function App() {
     // <Memo/>
     // <Container/>
     // <Screen/>
-    <Modal1/>
-  
+    // <Modal1/>
+    // <EventBubbling/>
+  <EventCapturing/>
   )
 }
 
